@@ -86,7 +86,7 @@ body {
       transition: var(--transition);
     }
     .nav-links a:hover {
-      color: var(--clr-primary-5);
+      color: yellow;
     }
     .nav-center {
       display: grid;
@@ -101,7 +101,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background: var(--clr-white);
+    background: red;
     z-index: 2;
-    box-shadow: var(--light-shadow);
+    box-shadow: red;
   }
