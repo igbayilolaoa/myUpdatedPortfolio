@@ -649,11 +649,11 @@ Skills
   }
 }
 .skills {
-  background: var(--clr-primary-9);
+  background: rgba(255, 255, 255, 0.609);
 }
 .skills h3 {
   margin: 1.5rem 0;
-  color: var(--clr-primary-1);
+  color: rgb(1, 1, 10);
 }
 .skill {
   margin-bottom: 1.25rem;
@@ -661,10 +661,11 @@ Skills
 .skill p {
   margin-bottom: 0.5rem;
   text-transform: capitalize;
-  color: var(--clr-primary-1);
+  color: rgb(1, 1, 10);
+
 }
 .skill-container {
-  background: var(--clr-white);
+  background:rgb(1, 1, 10) ;
   height: 1rem;
   width: 100%;
   border-radius: var(--radius);
@@ -674,30 +675,28 @@ Skills
   position: absolute;
   top: 0;
   left: 0;
-  background: var(--clr-primary-5);
+  background: #f1b100c9;
   height: 100%;
-  width: 50%;
-  border-radius: var(--radius);
+  width: 80%;
+  border-radius: black;
+}
+.value-60 {
+  width: 60%;
 }
 .value-70 {
   width: 70%;
 }
-.value-80 {
-  width: 80%;
-}
 .skill-text {
   position: absolute;
   top: -2rem;
-  left: 50%;
+  left: 80%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
-.skill-text-70 {
-  left: 70%;
+.skill-text-60 {
+  left: 60%;
 }
-.skill-text-80 {
-  left: 80%;
-}
+
 /*
 =============== 
 Timeline
