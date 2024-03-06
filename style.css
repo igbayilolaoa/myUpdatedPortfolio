@@ -145,6 +145,8 @@ p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
 }
+
+
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 4rem;
@@ -193,6 +195,7 @@ p {
 /* section */
 .section {
   padding: 5rem 0;
+  
   
 }
 
@@ -456,32 +459,24 @@ without grid different setup */
 Projects
 ===============
 */
-.projects-text {
-  width: 85vw;
-  max-width: 30rem;
-  margin: 0 auto;
-}
+
 .project {
   position: relative;
-  background: var(--clr-primary-5);
+  background: white;
   border-radius: var(--radius);
   margin-bottom: 2rem;
 }
 .project-info {
   text-align: center;
-  color: var(--clr-white);
+  color:rgb(1, 1, 10);
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
   opacity: 0;
 }
 .project-info p {
   text-transform: capitalize;
-  color: var(--clr-white);
+  color: #ffba00;
 }
 .project:hover .project-info {
   opacity: 1;
@@ -873,20 +868,19 @@ Single Page
 ===============
 */
 .single-page {
-  background: var(--clr-primary-10);
+  background:#ab9c9c41;
   min-height: calc(100vh - 5rem - 198px);
 }
 .page-info {
-  max-width: 700px;
+  max-width: 70vw;
+  font-size: 1.2rem;
+  text-align: justify;
 }
 .page-info a {
   text-transform: uppercase;
   color: var(--clr-primary-5);
   -webkit-transition: var(--transition);
   transition: var(--transition);
-}
-.page-info a:hover {
-  color: var(--clr-primary-1);
 }
 
 /*
@@ -902,6 +896,7 @@ Products Page
 }
 .projects-hero .section-title {
   margin-bottom: 0;
+ 
 }
 .single-project {
   background: var(--clr-grey-10);
